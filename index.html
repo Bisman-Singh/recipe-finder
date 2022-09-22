@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Recipe Finder</h1>
+    <p class="subtitle">Discover delicious meals from around the world</p>
+  </header>
+
+  <div class="container">
+    <!-- Search & Filters -->
+    <div class="controls">
+      <div class="search-wrap">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by name or ingredient...">
+        <button class="btn-search" id="searchBtn">Search</button>
+      </div>
+      <div class="filter-row">
+        <select id="categoryFilter" class="select-filter">
+          <option value="">All Categories</option>
+        </select>
+        <button class="btn-random" id="randomBtn">Random Recipe</button>
+      </div>
+    </div>
+
+    <!-- Recipe Grid -->
+    <div class="recipe-grid" id="recipeGrid"></div>
+
+    <!-- Recipe Detail Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-content" id="modalContent">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
