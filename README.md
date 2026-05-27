@@ -21,3 +21,5 @@ Uses [TheMealDB](https://www.themealdb.com/api.php) free API — no API key requ
 ## Usage
 
 Open `index.html` in any modern browser. An internet connection is required to fetch recipes.
+
+<sub><sup>Originally developed and tested locally during learning. Later organized and pushed to GitHub for portfolio visibility.</sup></sub>
